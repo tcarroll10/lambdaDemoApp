@@ -1,0 +1,35 @@
+2018-12-31 10:40:50.957  INFO 25951 --- [restartedMain] com.company.app.App                      : Starting App on Toms-MacBook-Pro.local with PID 25951 (/Users/tcarroll10/Dropbox/Java/PluralSightJavaSpring/sts-app/app/target/classes started by tcarroll10 in /Users/tcarroll10/Dropbox/Java/PluralSightJavaSpring/sts-app/app)
+2018-12-31 10:40:50.968  INFO 25951 --- [restartedMain] com.company.app.App                      : No active profile set, falling back to default profiles: default
+2018-12-31 10:40:51.124  INFO 25951 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-31 10:40:51.125  INFO 25951 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-31 10:40:52.964  INFO 25951 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 10000 (http)
+2018-12-31 10:40:53.001  INFO 25951 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-31 10:40:53.002  INFO 25951 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-31 10:40:53.013  INFO 25951 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/tcarroll10/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-12-31 10:40:53.106  INFO 25951 --- [restartedMain] o.a.c.c.C.[.[localhost].[/lambda-demo]   : Initializing Spring embedded WebApplicationContext
+2018-12-31 10:40:53.106  INFO 25951 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1978 ms
+2018-12-31 10:40:53.420  INFO 25951 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-31 10:40:53.695  INFO 25951 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-31 10:40:53.803  INFO 25951 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 10000 (http) with context path '/lambda-demo'
+2018-12-31 10:40:53.810  INFO 25951 --- [restartedMain] com.company.app.App                      : Started App in 3.426 seconds (JVM running for 4.66)
+2018-12-31 10:41:07.199  INFO 25951 --- [http-nio-10000-exec-2] o.a.c.c.C.[.[localhost].[/lambda-demo]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-31 10:41:07.199  INFO 25951 --- [http-nio-10000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-31 10:41:07.209  INFO 25951 --- [http-nio-10000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2018-12-31 10:41:07.310  INFO 25951 --- [http-nio-10000-exec-2] c.company.app.controller.MainController  : Input DataTo: DataTo [id=null, name=null, date=null, amount=10, customerName=null, transactionType=null]
+2018-12-31 12:11:29.832  INFO 25951 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-31 12:32:42.067  INFO 26525 --- [restartedMain] com.company.app.App                      : Starting App on Toms-MacBook-Pro.local with PID 26525 (/Users/tcarroll10/Dropbox/Java/PluralSightJavaSpring/sts-app/lambdaDemoApp/target/classes started by tcarroll10 in /Users/tcarroll10/Dropbox/Java/PluralSightJavaSpring/sts-app/lambdaDemoApp)
+2018-12-31 12:32:42.071  INFO 26525 --- [restartedMain] com.company.app.App                      : No active profile set, falling back to default profiles: default
+2018-12-31 12:32:42.123  INFO 26525 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-31 12:32:42.124  INFO 26525 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-31 12:32:43.289  INFO 26525 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 10000 (http)
+2018-12-31 12:32:43.309  INFO 26525 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-31 12:32:43.310  INFO 26525 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-31 12:32:43.317  INFO 26525 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/tcarroll10/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-12-31 12:32:43.380  INFO 26525 --- [restartedMain] o.a.c.c.C.[.[localhost].[/lambda-demo]   : Initializing Spring embedded WebApplicationContext
+2018-12-31 12:32:43.380  INFO 26525 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1256 ms
+2018-12-31 12:32:43.586  INFO 26525 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-31 12:32:43.739  INFO 26525 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-31 12:32:43.804  INFO 26525 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 10000 (http) with context path '/lambda-demo'
+2018-12-31 12:32:43.809  INFO 26525 --- [restartedMain] com.company.app.App                      : Started App in 2.05 seconds (JVM running for 2.671)
+2018-12-31 12:32:46.110  INFO 26525 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-12-31 12:32:46.114  INFO 26525 --- [RMI TCP Connection(8)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
